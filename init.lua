@@ -1,4 +1,5 @@
--- 插件 require("plugins.plugins-setup")
+-- 插件 
+require("plugins.plugins-setup")
 
 -- 基础配置
 require("core.options")

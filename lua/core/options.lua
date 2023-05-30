@@ -1,7 +1,7 @@
 local opt = vim.opt
 
 -- 行号
--- opt.relativenumber = trued
+opt.relativenumber = true
 opt.number = true
 
 -- 缩进
@@ -19,7 +19,7 @@ opt.cursorline = true
 -- 启用鼠标
 opt.mouse:append("a")
 
--- 系统剪贴版
+-- 系统剪贴板
 opt.clipboard:append("unnamedplus")
 
 -- 默认新窗口右和下
@@ -28,9 +28,9 @@ opt.splitbelow = true
 
 -- 搜索
 opt.ignorecase = true
-opt.smartcase = truesd
+opt.smartcase = true
 
---外观
+-- 外观
 opt.termguicolors = true
 opt.signcolumn = "yes"
 vim.cmd[[colorscheme tokyonight-moon]]
