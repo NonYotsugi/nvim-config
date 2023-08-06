@@ -1,7 +1,7 @@
 require'nvim-treesitter.configs'.setup {
   -- 添加不同语言
   ensure_installed = { 
-    "vim", "vimdoc", "bash", "c", "cpp","c_shart",
+    "vim", "vimdoc", "bash", "c", "cpp","c_sharp",
     "dart","gitignore","go","json", "javascript", "json", "lua", 
     "python", "typescript", "sql" ,"swift","vue","tsx", "css","rust", "markdown",
     "markdown_inline"
