@@ -1,13 +1,17 @@
 local opt = vim.opt
 
+
 -- 行号
-opt.relativenumber = true
+opt.relativenumber = false
 opt.number = true
 
 -- 缩进
 opt.tabstop = 2
 opt.shiftwidth = 2
+
+--空格替代tab
 opt.expandtab = true
+-- 新行对齐当前行
 opt.autoindent = true
 
 -- 防止包裹
@@ -26,7 +30,7 @@ opt.clipboard:append("unnamedplus")
 opt.splitright = true
 opt.splitbelow = true
 
--- 搜索
+-- 搜索大小写不敏感，除非包含大小写
 opt.ignorecase = true
 opt.smartcase = true
 
@@ -34,3 +38,4 @@ opt.smartcase = true
 opt.termguicolors = true
 opt.signcolumn = "yes"
 vim.cmd[[colorscheme tokyonight-moon]]
+
